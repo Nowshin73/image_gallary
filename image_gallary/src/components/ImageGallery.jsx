@@ -3,10 +3,10 @@ import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 
 const ImageGallery = () => {
   const [images, setImages] = useState([
-    { id: 1, src: 'image1.jpg', isFeatured: true },
-    { id: 2, src: 'image2.jpg', isFeatured: false },
-    { id: 3, src: 'image3.jpg', isFeatured: false },
-    { id: 4, src: 'image4.jpg', isFeatured: false },
+    { id: 1, src: 'https://i.ibb.co/grjhnK3/image.png', isFeatured: true },
+    { id: 2, src: 'https://i.ibb.co/c3BJcnj/image.png', isFeatured: false },
+    { id: 3, src: 'https://i.ibb.co/SmQLmX0/image.png', isFeatured: false },
+    { id: 4, src: 'https://i.ibb.co/M1hM5XN/image.png', isFeatured: false },
     // Add more images as needed
   ]);
 
